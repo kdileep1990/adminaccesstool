@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>AdminTool</name>
+	<name>EmployeeManagementTool</name>
 	<comment></comment>
 	<projects>
 		<project>spring-oxm-3.1.1.RELEASE</project>
