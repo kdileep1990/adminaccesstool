@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Investor Portal</title>
+        <title>Employee Management</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Investor Portal Site">
 	    <link rel="shortcut icon" href="SemanticBits/ico/favicon.ico">
