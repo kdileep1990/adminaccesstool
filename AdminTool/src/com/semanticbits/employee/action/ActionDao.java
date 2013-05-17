@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.semanticbits.employee.action;
 
 import com.semanticbits.employee.Employee;
@@ -13,10 +9,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
-/**
- *
- * @author dileep
- */
 @Repository("actionDao")
 public class ActionDao {
 

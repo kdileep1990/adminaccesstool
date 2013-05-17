@@ -1,16 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.semanticbits.employee.action;
 
 import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author dileep
- */
 @Service("actionService")
 public class ActionService {
 
