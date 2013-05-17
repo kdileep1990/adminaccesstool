@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/employeedetails</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="show_sql">true</property>
+        <!--    <mapping class="com.semanticbits.employee.Employee"/>
+        <mapping class="com.semanticbits.employee.Roles"/>-->
+        <!--    <mapping resource="com/semanticbits/employee/Employee.hbm.xml"/>
+        <mapping resource="com/semanticbits/employee/Roles.hbm.xml"/>-->
+        <!--<mapping resource="com/semanticbits/employee/Userroles.hbm.xml"/>-->
+        <mapping class="com.semanticbits.employee.Employee"/>
+        <mapping class="com.semanticbits.employee.Roles"/>
+        <!--    <mapping class="com.semanticbits.employee.action.ActionController"/>
+        <mapping class="com.semanticbits.employee.action.ActionService"/>
+        <mapping class="com.semanticbits.employee.action.ActionDao"/>
+        <mapping class="com.semanticbits.employee.login.LoginController"/>
+        <mapping class="com.semanticbits.employee.roles.AssignRoleController"/>
+        <mapping class="com.semanticbits.employee.logout.LogoutController"/>
+        <mapping class="com.semanticbits.employee.search.AutoSuggestions"/>
+        <mapping class="com.semanticbits.employee.search.SearchController"/>
+        <mapping class="com.semanticbits.employee.search.SearchDao"/>
+        <mapping class="com.semanticbits.employee.search.SearchService"/>
+        <mapping class="com.semanticbits.employee.registration.UserDaoImpl"/>
+        <mapping class="com.semanticbits.employee.registration.UserDaoI"/>
+        <mapping class="com.semanticbits.employee.registration.RegistrationController"/>-->
+        <!--    <mapping class="com.semanticbits.employee.Test"/>
+            <mapping class="com.semanticbits.employee.Employee"/>
+            <mapping class="com.semanticbits.employee.UserrolesId"/>
+        -->    
+        <mapping class="com.semanticbits.employee.Userroles"/>
+        <mapping class="com.semanticbits.employee.Roles"/><!--
+    <mapping class="com.semanticbits.employee.action.ActionController"/>
+    <mapping class="com.semanticbits.employee.action.ActionService"/>
+    <mapping class="com.semanticbits.employee.action.ActionDao"/>
+    <mapping class="com.semanticbits.employee.login.LoginController"/>
+    <mapping class="com.semanticbits.employee.roles.AssignRoleController"/>
+    <mapping class="com.semanticbits.employee.logout.LogoutController"/>
+    <mapping class="com.semanticbits.employee.search.AutoSuggestions"/>
+    <mapping class="com.semanticbits.employee.search.SearchController"/>
+    <mapping class="com.semanticbits.employee.search.SearchDao"/>
+    <mapping class="com.semanticbits.employee.search.SearchService"/>
+    <mapping class="com.semanticbits.employee.registration.UserDaoImpl"/>
+    <mapping class="com.semanticbits.employee.registration.UserDaoI"/>
+    <mapping class="com.semanticbits.employee.registration.RegistrationController"/>-->
+    </session-factory>
+</hibernate-configuration>
